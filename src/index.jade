@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Sublime Text Pro Tips for the Mighty App Engine Dev
+    title Sublime Text: Pro Tips for the Mighty App Engine Dev
 
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
@@ -16,59 +16,157 @@ html
     article
 
       section
-        h1 Sublime Text Pro Tips for the Mighty App Engine Dev
+        h1 Sublime Text
+        h2 Pro Tips for the<br>Mighty App Engine Dev
 
       section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+        h2 Sublime Text
+        h3.bullet some things you might already know
         ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
+          li cross-platform text editor
+          li functionality is extendable with plugins with its Python api
+          li proprietary software, $70
+          li <b>BUT FREE TO USE!!!!</b>
 
       section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+        h2 DISCLAIMER
+        h3.bullet This presentation won't teach you how to type faster
+        h3.bullet ...that's Typing of the Dead's job
+        p.bullet <img src="http://i.imgur.com/CeM44hX.gif" style="max-height:70%;">
+
+      section
+        h3 ...but it will teach you
+        h2.bullet HOW TO CODE FASTER
+        p.bullet <img src="http://i.imgur.com/5xnanev.gif">
+
+      section
+        h2.bullet WHY SUBLIME TEXT?
+        h3.bullet here's a short list of ST's features
+
+      section
+        h2.bullet Customizeable
+        h3.bullet Preferences > Settings - *
+        h3.bullet everything is in JSON so it's easy to understand
         hr
-        pre
+        pre.bullet
           code.language-javascript.
-            bespoke.from('article', {
-              keys: true,
-              touch: true,
-              hash: true,
-              state: true,
-              bullets: 'li, .bullet'
-            });
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+            "bold_folder_labels": true,
+            "caret_style": "phase",
+            "highlight_line": true,
+            "highlight_modified_tabs": true,
+            "word_wrap": true,
 
       section
-        h2.bullet Just the beginning...
-        hr
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        hr
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+        h2.bullet Looks nice
+        h3.bullet Themes
+        h3.bullet <a target="_blank" href="http://colorsublime.com/">http://colorsublime.com/</a>
+
+      section
+        h2.bullet some of my favorite themes
+
+      section
+        h2.bullet Tomorrow Theme (Night)
+        h3.bullet <a target="_blank" href="https://github.com/chriskempson/tomorrow-theme">https://github.com/chriskempson/tomorrow-theme</a>
+        p.bullet <img src="https://raw.githubusercontent.com/ChrisKempson/Tomorrow-Theme/master/Images/Tomorrow-Night.png" style="max-height:70%;">
+
+      section
+        h2.bullet Mud
+        h3.bullet <a target="_blank" href="http://daylerees.github.io/">http://daylerees.github.io/</a>
+        p.bullet <img src="http://i.imgur.com/KTT5VHs.png" style="max-height:70%;">
+
+      section
+        h2.bullet Phoenix Dark Blue
+        h3.bullet <a target="_blank" href="https://github.com/netatoo/phoenix-theme">https://github.com/netatoo/phoenix-theme</a>
+        p.bullet <img src="http://i.imgur.com/SAYeW7w.png" style="max-height:70%;">
+
+      section
+        h2.bullet Appealr
+        h3.bullet <a target="_blank" href="https://github.com/manikrathee/appealr">https://github.com/manikrathee/appealr</a>
+        p.bullet <img src="http://i.imgur.com/lRVkIp1.png?1" style="max-height:70%;">
+
+      section
+        h2.bullet Soda Dark
+        h3.bullet <a target="_blank" href="http://buymeasoda.github.io/soda-theme/">http://buymeasoda.github.io/soda-theme/</a>
+        p.bullet <img src="http://i.imgur.com/hjLvTYd.png" style="max-height:70%;">
+
+      section
+        h3.bullet <em>back to features...</em>
+
+      section
+        h2.bullet Minimap
+        h3.bullet sometimes we get lost in our own mess
+
+      section
+        h3.bullet auto completion
+        h3.bullet brace/bracket/tag matching
+        h3.bullet expand/collapse scopes
+        h3.bullet build/compile code inside the editor
+
+      section
+        h2.bullet Multiselection
+        h3.bullet CTRL + D
+        h3.bullet CTRL + click
+        h3.bullet ALT + SHIFT + up or down
+        h3.bullet "Find All"
+
+      section
+        h2.bullet Keyboard Shortcuts
+        h3.bullet delete line: CTRL + SHIFT + K
+        h3.bullet duplicate line: CTRL + SHIFT + D
+        h3.bullet swap line(s): CTRL + SHIFT + up or down
+
+      section
+        h2.bullet Find/Replace
+        h3.bullet find: CTRL + F
+        h3.bullet replace: CTRL + H
+        h3.bullet find in files: CTRL + SHIFT + F
+
+      section
+        h2.bullet Panes, groups and screen modes
+        h3.bullet pane management: ALT + SHIFT + 1 to 5
+        h3.bullet pane switching: CTRL + 1 to 5
+        h3.bullet zen/distraction-free mode: SHIFT + F11
+        h3.bullet sidebar: CTRL + KB
+
+      section
+        h2.bullet Bookmarks
+        h3.bullet CTRL + F2
+        h3.bullet F2 and SHIFT + F2
+
+      section
+        h2.bullet Command Palette
+        h3.bullet Go To Anything for Settings
+        h3.bullet <strong>CTRL + SHIFT + P</strong>
+
+      section
+        h2.bullet Snippets / Macros
+
+      section
+        h2.bullet Go To Anything
+        h3.bullet ..or how to browse your code like a ninja
+        h3.bullet <strong>CTRL + P</strong>
+        h3.bullet :123 go to line 123 or CTRL+G
+        h3.bullet @function_name go to function blah
+        h3.bullet file.py go to file.py
+        h3.bullet file.py:123 go figure! ;)
+
+      section
+        h2.bullet Packages
+        h3.bullet ST packages = game changer
+        h3.bullet <a target="_blank" href="https://sublime.wbond.net/">https://sublime.wbond.net/</a>
+
+      section
+        h2.bullet Search in Project
+        h3.bullet Let's you use <strong>ack</strong> or <strong>ag</strong> inside ST
+        h3.bullet <a href="https://sublime.wbond.net/packages/Search%20in%20Project">https://sublime.wbond.net/packages/Search%20in%20Project</a>
+
+      section
+        h2.bullet SublimeLinter
+
+      section
+        h2.bullet App Dev Standards, Conventions, & Guidelines
+        h3.bullet <a target="_blank" href="http://bit.ly/appdevstandards">http://bit.ly/appdevstandards</a>
+        h3.bullet coding conventions can be easily integrated with ST
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
